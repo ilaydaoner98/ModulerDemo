@@ -8,4 +8,8 @@ extension Int {
         return number * number
     }
     
+    public func squareRootOfNumber(_ number: Int) -> Int {
+        return Int(sqrt(Double(number)))
+    }
+    
 }
